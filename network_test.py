@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 
 personas = 'http://story-chronicles.herokuapp.com/storyobjects/'
 
+x = "Repo test"
+
 target = requests.get(personas)
 
 x = target.json()
